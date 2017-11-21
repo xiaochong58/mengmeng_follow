@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <nav class="conNav">
     <ul>
       <router-link v-bind:class="{'router-link-exact-active router-link-active':conNavPage==1}" tag="li" to="/page/navLink_a/index"><a href="">花艺培训</a></router-link>
@@ -6,7 +6,7 @@
       <router-link v-bind:class="{'router-link-exact-active router-link-active':conNavPage==3}" tag="li" to="/page/navLink_c/index"><a href="">玫瑰花茶</a></router-link>
       <router-link v-bind:class="{'router-link-exact-active router-link-active':conNavPage==4}" tag="li" to="/page/navLink_d/index"><a href="">花艺师到家</a></router-link>
       <router-link v-bind:class="{'router-link-exact-active router-link-active':conNavPage==5}" tag="li" to="/page/navLink_e/index"><a href="">花+产品</a></router-link>
-
+	wo  shi zhang
     </ul>
   </nav>
 </template>

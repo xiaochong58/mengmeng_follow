@@ -15,7 +15,7 @@ const follow_art  = (resolve) => {import('@/page/article/follow_art.vue').then((
 const toPay       = (resolve) => {import('@/page/toPay/toPay.vue').then((module) => {resolve(module)})}
 
 Vue.use(Router)
-123
+123456
 const routes = [
     { path: '/page/Login/login', component: login },             //登录
     { path: '/page/Login/register', component: register },       //注册

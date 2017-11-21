@@ -1,4 +1,4 @@
-import Vue from 'vue'
+﻿import Vue from 'vue'
 import Router from 'vue-router'
  //使用了webpack代码分割功能，这样会安需加载组件页面
 const homeIndex   = (resolve) => {import('@/page/Home/index.vue').then((module) => {resolve(module)})}
@@ -15,7 +15,7 @@ const follow_art  = (resolve) => {import('@/page/article/follow_art.vue').then((
 const toPay       = (resolve) => {import('@/page/toPay/toPay.vue').then((module) => {resolve(module)})}
 
 Vue.use(Router)
-
+123
 const routes = [
     { path: '/page/Login/login', component: login },             //登录
     { path: '/page/Login/register', component: register },       //注册
